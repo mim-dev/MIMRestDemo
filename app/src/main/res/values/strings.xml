@@ -1,3 +1,14 @@
 <resources>
     <string name="app_name">MIMRestDemo</string>
+
+    <string name="activity_main_genre_edit_text_hint">genre</string>
+    <string name="activity_main_actor_edit_text_hint">actor</string>
+
+    <string name="activity_main_default_genre">all</string>
+    <string name="activity_main_default_actor">all</string>
+
+    <string name="activity_main_request_button">request</string>
+
+    <string name="activity_Main_get_movies_progress_dialog_title">Operation Status</string>
+    <string name="activity_Main_get_movies_progress_dialog_content">requesting movies...</string>
 </resources>

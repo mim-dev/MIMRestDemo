@@ -7,10 +7,31 @@
     android:paddingLeft="@dimen/activity_horizontal_margin"
     android:paddingRight="@dimen/activity_horizontal_margin"
     android:paddingTop="@dimen/activity_vertical_margin"
-    tools:context="com.mim_development.android.mimrestdemo.MainActivity">
+    tools:context=".activity.MainActivity">
 
-    <TextView
-        android:layout_width="wrap_content"
+    <EditText
+        android:id="@+id/activity_main_edit_text_genre"
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="Hello World!" />
+        android:layout_alignParentTop="true"
+        android:layout_marginBottom="10dp"
+        android:hint="@string/activity_main_genre_edit_text_hint"
+        android:text="@string/activity_main_default_genre" />
+
+    <EditText
+        android:id="@+id/activity_main_edit_text_actor"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/activity_main_edit_text_genre"
+        android:layout_marginBottom="10dp"
+        android:hint="@string/activity_main_actor_edit_text_hint"
+        android:text="@string/activity_main_default_actor" />
+
+    <Button
+        android:id="@+id/activity_main_button_fetch"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/activity_main_edit_text_actor"
+        android:text="@string/activity_main_request_button"/>
+
 </RelativeLayout>
